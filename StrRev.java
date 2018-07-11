@@ -1,4 +1,5 @@
-import java.io.InputStream;
+package Interview;
+
 import java.util.Scanner;
 
 public class StrRev {
@@ -13,7 +14,7 @@ public class StrRev {
 			System.out.println("Enter the string : " );
 			str = input.next();
 
-			int strLength = str.length(); // Varible strLength stores the Length of String
+			int strLength = str.length(); // Variable strLength stores the Length of String
 
 			for(int i = strLength-1 ; i >= 0; i--) {
 				
@@ -25,3 +26,4 @@ public class StrRev {
 			
 	}
 }
+
